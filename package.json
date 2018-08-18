@@ -12,9 +12,11 @@
   "name": "uuid-generator-website",
   "private": true,
   "scripts": {
-    "build": "parcel build --no-cache -d dist src/index.html",
+    "build": "parcel build -d dist src/index.html",
     "clear": "rimraf dist",
-    "dist": "yarn clear && yarn build"
+    "dist": "yarn clear && yarn build",
+    "start": "parcel serve --no-cache src/index.html --open",
+    "test": "exit 0"
   },
   "version": "1.0.0"
 }

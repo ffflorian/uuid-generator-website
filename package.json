@@ -17,8 +17,9 @@
   "scripts": {
     "build": "parcel build --public-url ./ src/index.html",
     "clear": "rimraf dist .cache",
-    "deploy": "yarn dist && gh-pages -d dist",
+    "deploy": "yarn dist && yarn robots && gh-pages -d dist",
     "dist": "yarn clear && yarn build",
+    "robots": "node bin/generate-robots-txt.js",
     "start": "parcel src/index.html --open",
     "test": "exit 0"
   },

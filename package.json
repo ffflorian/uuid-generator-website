@@ -13,7 +13,7 @@
   "name": "uuid-generator-website",
   "private": true,
   "scripts": {
-    "build": "parcel build -d dist src/index.html",
+    "build": "parcel build --public-url ./ src/index.html",
     "clear": "rimraf dist .cache",
     "deploy": "yarn dist && gh-pages -d dist",
     "dist": "yarn clear && yarn build",

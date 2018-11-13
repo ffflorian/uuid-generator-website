@@ -3,28 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>UUID Generator</title>
-    <style>
-      body {
-        font-family: sans-serif;
-        text-align: center;
-        width: 100%;
-      }
-      h3 {
-        color: #555;
-      }
-      #uuidv4, #uuidv1 {
-        font-weight: bold;
-        font-size: 20pt;
-        text-align: center;
-        width: 100%;
-      }
-    </style>
+    <link rel="stylesheet" href="index.styl" media="all" />
   </head>
   <body>
-    <h3>UUID v4</h3>
-    <div id="uuidv4"></div>
-    <h3>UUID v1</h3>
-    <div id="uuidv1"></div>
+    <a href="https://github.com/ffflorian/uuid-generator-website">
+      <img id="github-ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
+    </a>
+    <div class="section">
+      <div class="container">
+        <h3>UUID v4</h3>
+        <p><strong><mark id="uuidv4"></mark></strong></p>
+      </div>
+
+      <div class="container">
+        <h3>UUID v1</h3>
+        <p><strong><mark id="uuidv1"></mark></strong></p>
+      </div>
+
+      <div class="container" id="footer">
+        <p>
+          Built with <a href="https://picturepan2.github.io/spectre/">Spectre.css</a> and
+          <a href="https://parceljs.org/">Parcel</a>.
+        </p>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

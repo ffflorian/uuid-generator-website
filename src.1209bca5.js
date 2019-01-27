@@ -15,4 +15,4 @@ var r,t=require("buffer").Buffer;function i(r){return(i="function"==typeof Symbo
 },{"buffer":"dskh"}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("pure-uuid"));function u(e){return e&&e.__esModule?e:{default:e}}document.getElementById("uuidv4").innerHTML=new e.default(4).format(),document.getElementById("uuidv1").innerHTML=new e.default(1).format();
 },{"pure-uuid":"Gg/t"}]},{},["Focm"], null)
-//# sourceMappingURL=src.4abf7b6f.map
+//# sourceMappingURL=src.1209bca5.map

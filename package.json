@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "pure-uuid": "1.5.8"
+    "pure-uuid": "1.6.0"
   },
   "devDependencies": {
     "gh-pages": "2.2.0",

@@ -1,4 +1,4 @@
-# uuid-generator-website [![Build Status](https://travis-ci.org/ffflorian/uuid-generator-website.svg?branch=dev)](https://travis-ci.org/ffflorian/uuid-generator-website) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ffflorian/uuid-generator-website)](https://dependabot.com)
+# uuid-generator-website [![Build Status](https://travis-ci.org/ffflorian/uuid-generator-website.svg?branch=dev)](https://travis-ci.org/ffflorian/uuid-generator-website)
 
 ## Build
 ```

@@ -3,7 +3,6 @@
     "pure-uuid": "1.6.2"
   },
   "devDependencies": {
-    "gh-pages": "4.0.0",
     "parcel-bundler": "1.12.5",
     "rimraf": "4.1.2",
     "spectre.css": "0.5.9",
@@ -16,7 +15,6 @@
   "scripts": {
     "build": "parcel build --public-url ./ src/index.html",
     "clear": "rimraf dist .cache",
-    "deploy": "yarn dist && yarn robots && gh-pages -d dist",
     "dist": "yarn clear && yarn build",
     "robots": "node bin/generate-robots-txt.js",
     "start": "parcel src/index.html --open",

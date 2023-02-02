@@ -3,7 +3,7 @@
     "pure-uuid": "1.6.2"
   },
   "devDependencies": {
-    "gh-pages": "4.0.0",
+    "gh-pages": "5.0.0",
     "parcel-bundler": "1.12.5",
     "rimraf": "4.1.2",
     "spectre.css": "0.5.9",

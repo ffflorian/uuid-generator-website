@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "pure-uuid": "1.6.2"
+    "pure-uuid": "1.6.3"
   },
   "devDependencies": {
     "parcel-bundler": "1.12.5",

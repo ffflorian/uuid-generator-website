@@ -4,7 +4,7 @@
   },
   "devDependencies": {
     "parcel-bundler": "1.12.5",
-    "rimraf": "4.4.0",
+    "rimraf": "4.4.1",
     "spectre.css": "0.5.9",
     "stylus": "0.59.0"
   },

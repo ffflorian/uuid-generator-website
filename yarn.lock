@@ -4213,10 +4213,10 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-pure-uuid@1.6.3:
-  version "1.6.3"
-  resolved "https://registry.npmjs.org/pure-uuid/-/pure-uuid-1.6.3.tgz#d0e1894720328612ce55cdd08d90443dd7c1fc7f"
-  integrity sha512-5cBiGtFWAulm5WwPWpUTjqJay6mJL5rm3Oru9vCXgwgWcoYtBEpjJbxjsWYVX7omr1jP5iw27lXUB6fDIdoOdw==
+pure-uuid@1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/pure-uuid/-/pure-uuid-1.6.4.tgz#5fb373269ff6bae5a7e8f4750035196667be6142"
+  integrity sha512-ZMpDd+v9JWxU4Lqrpf2oBTwHQakCIC7px8iNv8P/EkMvoRvr9N4z/PQT+nZ3Lbrhelmq/ejibLOlMnmJj+f+Pg==
 
 purgecss@^1.4.0:
   version "1.4.2"
